@@ -19,6 +19,12 @@ header a{
 }
 .brand{
     margin-top: 20px;
+    padding-left: 8px;
+}
+.brand a{
+    color: #fff;
+    font-weight: 900;
+
 }
 .navbar{
     display: flex;
@@ -30,4 +36,54 @@ ul{
 }
 ul li{
     display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+    transition: 1s all;
+}
+nav ul li a.active{
+    color: #080;
+}
+nav ul li a:hover{
+    color: #1E8FFE;
+    transition: 1s all;
+}
+nav ul li a i{ 
+    margin-right: 5px;
+}
+.login ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 1s all;
+}
+.login ul li a:hover{
+    color: #1E8FFE;
+    transition: 1s all;
+}
+@media only screen and (max-width:320px){
+    .gizmoshop{
+        font-size: large;
+        margin-top: 20px;
+    }
+    header{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 5px;
+    }
+    .brand a{
+       font-weight: 450;
+       font-size: x-small;
+    } 
+    nav ul li a{
+        font-size: 7px;
+        margin-right: 10px;
+        display: table-row;
+        justify-content: end;
+    } 
+    .login ul li a{
+        font-size: 3px;
+    }                
+
 }
