@@ -5,7 +5,8 @@ body{
 }
 .gizmoshop{
     text-align: center;
-    color: rgb(1, 1, 31);
+    color: #01011F;
+    font-size: 40px;
 }
 header{
     background-color: #4A0000;
@@ -55,14 +56,25 @@ nav ul li a i{
 }
 .login ul li a{
     text-decoration: none;
-    color: #000;
+    color: #01011F;
     transition: 1s all;
 }
 .login ul li a:hover{
     color: #1E8FFE;
     transition: 1s all;
 }
-@media only screen and (max-width:320px){
+main{
+    text-align: center;
+    background-image: url(../img/main.png);
+    padding-bottom: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 82px;
+}
+main h1{
+    color: #01011F;
+}
+@media only screen and (max-width:768px){
     .gizmoshop{
         font-size: large;
         margin-top: 20px;
@@ -84,6 +96,13 @@ nav ul li a i{
     } 
     .login ul li a{
         font-size: 3px;
-    }                
-
+    }    
+    main{
+        padding-bottom: 120px;
+        margin-top: 82px;
+    } 
+    main h1{
+        font-size: 10px;
+        margin-top: -10px;
+    }
 }
