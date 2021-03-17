@@ -1,6 +1,6 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #A9A9A9;
+    background-color: #fff;
     margin: 0;
 }
 .gizmoshop{
@@ -71,17 +71,20 @@ main{
     background-size: cover;
     margin-top: 82px;
 }
-main h1{
+.about p{
     color: #01011F;
+    font-size: x-large;
+    padding-top: 100px;
+    text-align: justify;
 }
-section#sect{
+.about{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    padding-top: 60px;
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 170px;
 }
 @media only screen and (max-width:768px){
     .gizmoshop{
@@ -113,5 +116,17 @@ img{
     main h1{
         font-size: 10px;
         margin-top: -10px;
+    }
+    .about{
+        display: table-row;
+    }
+    .about p{
+        padding-top: 100px;
+        font-size: small;
+        text-align: center;
+    }
+    img{
+        width: 140px;
+        height: 100px;
     }
 }
