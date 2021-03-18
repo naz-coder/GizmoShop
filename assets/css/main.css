@@ -31,11 +31,11 @@ header a{
     display: flex;
     justify-content: space-between;
 }
-ul{
+.navbar ul{
     list-style-type: none;
     margin-top: 20px;
 }
-ul li{
+.navbar ul li{
     display: inline-block;
 }
 nav ul li a{
@@ -179,7 +179,19 @@ section#services serviceicons div:last-child:hover{
     transition: 1s all;
     color: #fff;
 }
-
+footer{
+    display: flex;
+    justify-content: space-around; 
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+}
+.copy{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: -20px;
+}
 @media only screen and (max-width:768px){
     .gizmoshop{
         font-size: large;
@@ -230,5 +242,24 @@ section#services serviceicons div:last-child:hover{
         padding-top: 7px;
         font-weight: 300;
         font-size: 15px;
+    }
+    footer{
+        display: table-row;
+        align-items: center;
+        background-color: #000000;
+        background-size: cover;
+        color: #fff;
+        text-decoration: none;
+        font-size: smaller;
+    }
+    footer h2{
+        font-size: smaller;
+    }
+    .copy{
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        padding: -30px;
+        font-size: smaller;
     }
 }
