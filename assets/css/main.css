@@ -86,6 +86,100 @@ img{
     width: 200px;
     height: 170px;
 }
+section#services{
+    padding: 50px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    text-align: center;
+    color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10vh;
+    padding-left: 50px;
+    padding-bottom: 20vh;
+    padding-right: 100px;
+
+}
+.serviceicons{
+    display: flex;
+    justify-content: space-around;
+
+}
+section#services h1{
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 45px;
+}
+section#services h4{
+    margin-bottom: 50px;
+    color: #fff;
+}
+section#services h2{
+    color: black;
+}
+section#services p{
+    color: black;
+}
+section#services .serviceicons div{
+    padding: 10px;
+    margin: 5px;
+    width: 170px;
+}
+section#services .serviceicons div i{
+    color: black;
+}
+section#services .serviceicons div:first-child{
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px white;
+    -moz-box-shadow: 0 8px 6px -6px white;
+    box-shadow: 0 8px 6px -6px white;
+    color: #000;
+    padding-bottom: 30px;
+}
+section#services .serviceicons div:first-child:hover{
+    background: #a83c3c;
+    transition: 1s all;
+    color: #fff;
+}
+section#services .serviceicons div:nth-child(2){
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 0 8px 6px -6px #fff;
+    -moz-box-shadow: 0 8px 6px -6px #fff;
+    box-shadow: 0 8px 6px -6px #fff;
+    text-decoration: none;
+}
+section#services .serviceicons div:nth-child(2):hover{
+    background: #a83c3c;
+    transition: 1s all;
+    color: #fff;
+}
+section#services .serviceicons div:nth-child(3){
+    background-color: #fff;
+    color: #000;
+    -webkit-box-shadow: 0 8px 6px -6px #fff;
+    -moz-box-shadow: 0 8px 6px -6px #fff;
+    box-shadow: 0 8px 6px -6px #fff;
+}
+section#services .serviceicons div:nth-child(3):hover{
+    background: #a83c3c;
+    transition: 1s all;
+    color: #fff;
+}
+section#services .serviceicons div:last-child{
+    background-color: white;
+    color: #000;
+    -webkit-box-shadow: 0 8px 6px -6px #fff;
+    -moz-box-shadow: 0 8px 6px -6px #fff;
+    box-shadow: 0 8px 6px -6px #fff;
+}
+section#services serviceicons div:last-child:hover{
+    background:#a83c3c;
+    transition: 1s all;
+    color: #fff;
+}
+
 @media only screen and (max-width:768px){
     .gizmoshop{
         font-size: large;
@@ -128,5 +222,13 @@ img{
     img{
         width: 140px;
         height: 100px;
+    }
+    .serviceicons{
+        display: table-row;  
+    }
+    section#services h1{
+        padding-top: 7px;
+        font-weight: 300;
+        font-size: 15px;
     }
 }
