@@ -3,6 +3,9 @@ body{
     background-color: #fff;
     margin: 0;
 }
+body a{
+    text-decoration: none;
+}
 .gizmoshop{
     text-align: center;
     color: #01011F;
@@ -185,7 +188,65 @@ footer{
     background-color: #000000;
     color: #fff;
     text-decoration: none;
+    padding-top: 60px;
 }
+footer ul {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+footer ul li a{
+    color: #fff;
+}
+.newsletter form{
+    text-align: center;
+    -webkit-box-shadow: 0 8px 6px 6px #ccc;
+    -moz-box-shadow: 0 8px 6px 6px #ccc;
+    box-shadow: 0 8px 6px 6px #ccc;
+    padding: 30px;
+}
+newsletter form label{
+    font-weight: 900;
+}
+.newsletter form input{
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 0px 10px;
+    padding: 10px;
+    text-align: center;
+}
+.newsletter button{
+    padding: 10px;
+    background-color: red;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 0px 10px;
+    transition: 1s all;
+}
+.newsletter button:hover{
+    background-color: #06c;
+    color: #fff;
+    transition: 1s all;
+}
+footer div.icons a:first-child{
+    color: #06c;
+}
+footer div.icons a:nth-child(2){
+    color: gray;
+}
+footer div.icons a:nth-last-child(3){
+    color: red;
+}
+footer div.icons a:nth-child(4){
+    color: green;
+}
+footer div.icons a:last-child{
+    color: dodgerblue
+}
+
 .copy{
     background-color: #fff;
     color: #000;
