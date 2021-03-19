@@ -1,122 +1,122 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #fff;
-    margin: 0;
+    font-family      : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color : #fff;
+    margin           : 0;
 }
 body a{
     text-decoration: none;
 }
 .gizmoshop{
-    text-align: center;
-    color: #01011F;
-    font-size: 40px;
+    text-align : center;
+    color      : #01011F;
+    font-size  : 40px;
 }
 header{
-    background-color: #4A0000;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 8px 6px -6px #ccc;
-    display: inline-block;
+    background-color : #4A0000;
+    position         : fixed;
+    width            : 100%;
+    box-shadow       : 0 8px 6px -6px #ccc;
+    display          : inline-block;
 }
 header a{
-    text-decoration: none;
+    text-decoration  : none;
 }
 .brand{
-    margin-top: 20px;
-    padding-left: 8px;
+    margin-top       : 20px;
+    padding-left     : 8px;
 }
 .brand a{
-    color: #fff;
-    font-weight: 900;
+    color            : #fff;
+    font-weight      : 900;
 
 }
 .navbar{
-    display: flex;
-    justify-content: space-between;
+    display           : flex;
+    justify-content   : space-between;
 }
 .navbar ul{
-    list-style-type: none;
-    margin-top: 20px;
+    list-style-type : none;
+    margin-top      : 20px;
 }
 .navbar ul li{
     display: inline-block;
 }
 nav ul li a{
-    text-decoration: none;
-    color: #fff;
-    margin-right: 25px;
-    transition: 1s all;
+    text-decoration : none;
+    color           : #fff;
+    margin-right    : 25px;
+    transition      : 1s all;
 }
 nav ul li a.active{
     color: #080;
 }
 nav ul li a:hover{
-    color: #1E8FFE;
-    transition: 1s all;
+    color       : #1E8FFE;
+    transition  : 1s all;
 }
 nav ul li a i{ 
     margin-right: 5px;
 }
 .login ul li a{
-    text-decoration: none;
-    color: #01011F;
-    transition: 1s all;
+    text-decoration : none;
+    color           : #01011F;
+    transition      : 1s all;
 }
 .login ul li a:hover{
-    color: #1E8FFE;
-    transition: 1s all;
+    color      : #1E8FFE;
+    transition : 1s all;
 }
 main{
-    text-align: center;
-    background-image: url(../img/main.png);
-    padding-bottom: 500px;
+    text-align       : center;
+    background-image : url(../img/main.png);
+    padding-bottom   : 500px;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 82px;
+    background-size  : cover;
+    margin-top       : 82px;
 }
 .about p{
-    color: #01011F;
-    font-size: x-large;
+    color      : #01011F;
+    font-size  : x-large;
     padding-top: 100px;
-    text-align: justify;
+    text-align : justify;
 }
 .about{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 60px;
+    display         : flex;
+    justify-content : space-around;
+    padding-top     : 60px;
 }
 img{
-    width: 200px;
+    width : 200px;
     height: 170px;
 }
 section#services{
-    padding: 50px;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-    text-align: center;
-    color: #000;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding            : 50px;
+    background         : linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    text-align         : center;
+    color              : #000;
+    background-repeat  : no-repeat;
+    background-size    : cover;
     background-position: center;
-    padding-top: 10vh;
-    padding-left: 50px;
-    padding-bottom: 20vh;
-    padding-right: 100px;
+    padding-top        : 10vh;
+    padding-left       : 50px;
+    padding-bottom     : 20vh;
+    padding-right      : 100px;
 
 }
 .serviceicons{
-    display: flex;
+    display        : flex;
     justify-content: space-around;
 
 }
 section#services h1{
-    font-weight: 300;
-    font-size: 20px;
-    color: #fff;
-    padding-top: 45px;
+    font-weight    : 300;
+    font-size      : 20px;
+    color          : #fff;
+    padding-top    : 45px;
 }
 section#services h4{
     margin-bottom: 50px;
-    color: #fff;
+    color        : #fff;
 }
 section#services h2{
     color: black;
@@ -126,110 +126,114 @@ section#services p{
 }
 section#services .serviceicons div{
     padding: 10px;
-    margin: 5px;
-    width: 170px;
+    margin : 5px;
+    width  : 170px;
 }
 section#services .serviceicons div i{
     color: black;
 }
 section#services .serviceicons div:first-child{
-    background-color: white;
+    background-color  : white;
     -webkit-box-shadow: 0 8px 6px -6px white;
-    -moz-box-shadow: 0 8px 6px -6px white;
-    box-shadow: 0 8px 6px -6px white;
-    color: #000;
-    padding-bottom: 30px;
+    -moz-box-shadow   : 0 8px 6px -6px white;
+    box-shadow        : 0 8px 6px -6px white;
+    color             : #000;
+    padding-bottom    : 30px;
 }
 section#services .serviceicons div:first-child:hover{
     background: #a83c3c;
     transition: 1s all;
-    color: #fff;
+    color     : #fff;
 }
 section#services .serviceicons div:nth-child(2){
-    background-color: #fff;
-    color: #000;
+    background-color  : #fff;
+    color             : #000;
     -webkit-box-shadow: 0 8px 6px -6px #fff;
-    -moz-box-shadow: 0 8px 6px -6px #fff;
-    box-shadow: 0 8px 6px -6px #fff;
-    text-decoration: none;
+    -moz-box-shadow   : 0 8px 6px -6px #fff;
+    box-shadow        : 0 8px 6px -6px #fff;
+    text-decoration   : none;
 }
 section#services .serviceicons div:nth-child(2):hover{
     background: #a83c3c;
     transition: 1s all;
-    color: #fff;
+    color     : #fff;
 }
 section#services .serviceicons div:nth-child(3){
-    background-color: #fff;
-    color: #000;
+    background-color  : #fff;
+    color             : #000;
     -webkit-box-shadow: 0 8px 6px -6px #fff;
-    -moz-box-shadow: 0 8px 6px -6px #fff;
-    box-shadow: 0 8px 6px -6px #fff;
+    -moz-box-shadow   : 0 8px 6px -6px #fff;
+    box-shadow        : 0 8px 6px -6px #fff;
 }
 section#services .serviceicons div:nth-child(3):hover{
     background: #a83c3c;
     transition: 1s all;
-    color: #fff;
+    color     : #fff;
 }
 section#services .serviceicons div:last-child{
-    background-color: white;
-    color: #000;
+    background-color  : white;
+    color             : #000;
     -webkit-box-shadow: 0 8px 6px -6px #fff;
-    -moz-box-shadow: 0 8px 6px -6px #fff;
-    box-shadow: 0 8px 6px -6px #fff;
+    -moz-box-shadow   : 0 8px 6px -6px #fff;
+    box-shadow        : 0 8px 6px -6px #fff;
 }
 section#services serviceicons div:last-child:hover{
     background:#a83c3c;
     transition: 1s all;
-    color: #fff;
+    color     : #fff;
 }
 footer{
-    display: flex;
-    justify-content: space-around; 
+    display         : flex;
+    justify-content : space-around; 
     background-color: #000000;
-    color: #fff;
-    text-decoration: none;
-    padding-top: 60px;
+    color           : #fff;
+    text-decoration : none;
+    padding-top     : 60px;
 }
 footer ul {
     list-style-type: none;
-    padding-left: 5px;
-    padding-top: 0px;
+    padding-left   : 5px;
+    padding-top    : 0px;
 }
 footer ul li a{
     color: #fff;
 }
-.newsletter form{
-    text-align: center;
+.newsletter{
+    text-align        : center;
     -webkit-box-shadow: 0 8px 6px 6px #ccc;
-    -moz-box-shadow: 0 8px 6px 6px #ccc;
-    box-shadow: 0 8px 6px 6px #ccc;
-    padding: 30px;
+    -moz-box-shadow   : 0 8px 6px 6px #ccc;
+    box-shadow        : 0 8px 6px 6px #ccc;
+    padding           : 5px;
+    padding-top       : 10px;
+    padding-bottom    : 20px;
+    height            : 90px;
+    margin-top        : 20px;
 }
-newsletter form label{
+newsletter label{
     font-weight: 900;
 }
-.newsletter form input{
-    width: 50%;
-    border: 2px solid #ccc;
+.newsletter input{
+    width        : 50%;
+    border       : 2px solid #ccc;
     border-radius: 0px 10px;
-    padding: 10px;
-    text-align: center;
+    padding      : 10px;
+    text-align   : center;
 }
 .newsletter button{
-    padding: 10px;
+    padding         : 10px;
     background-color: red;
-    border: 0px;
-    cursor: pointer;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 900;
-    border-radius: 0px 10px;
-    transition: 1s all;
+    border          : 0px;
+    cursor          : pointer;
+    color           : #fff;
+    font-size       : 15px;
+    font-weight     : 900;
+    border-radius   : 0px 10px;
+    transition      : 1s all;
 }
 .newsletter button:hover{
-    background-color: #06c;
-    color: #fff;
-    transition: 1s all;
+    background-color : #06c;
+    color            : #fff;
+    transition       : 1s all;
 }
 footer div.icons a:first-child{
     color: #06c;
@@ -249,28 +253,28 @@ footer div.icons a:last-child{
 
 .copy{
     background-color: #fff;
-    color: #000;
-    text-align: center;
-    padding: -20px;
+    color           : #000;
+    text-align      : center;
+    padding         : -20px;
 }
 @media only screen and (max-width:768px){
     .gizmoshop{
-        font-size: large;
+        font-size : large;
         margin-top: 20px;
     }
     header{
-        padding-top: 0px;
+        padding-top   : 0px;
         padding-bottom: 0px;
-        margin-top: 5px;
+        margin-top    : 5px;
     }
     .brand a{
        font-weight: 450;
-       font-size: x-small;
+       font-size  : x-small;
     } 
     nav ul li a{
-        font-size: 7px;
-        margin-right: 10px;
-        display: table-row;
+        font-size      : 7px;
+        margin-right   : 10px;
+        display        : table-row;
         justify-content: end;
     } 
     .login ul li a{
@@ -278,10 +282,10 @@ footer div.icons a:last-child{
     }    
     main{
         padding-bottom: 130px;
-        margin-top: 82px;
+        margin-top    : 82px;
     } 
     main h1{
-        font-size: 10px;
+        font-size : 10px;
         margin-top: -10px;
     }
     .about{
@@ -289,11 +293,11 @@ footer div.icons a:last-child{
     }
     .about p{
         padding-top: 100px;
-        font-size: small;
-        text-align: center;
+        font-size  : small;
+        text-align : center;
     }
     img{
-        width: 140px;
+        width : 140px;
         height: 100px;
     }
     .serviceicons{
@@ -302,25 +306,43 @@ footer div.icons a:last-child{
     section#services h1{
         padding-top: 7px;
         font-weight: 300;
-        font-size: 15px;
+        font-size  : 15px;
     }
     footer{
-        display: table-row;
-        align-items: center;
-        background-color: #000000;
+        display        : table-row;
+        align-items    : center;
         background-size: cover;
-        color: #fff;
-        text-decoration: none;
-        font-size: smaller;
+        font-size      : smaller;
     }
     footer h2{
         font-size: smaller;
     }
-    .copy{
-        background-color: #fff;
-        color: #000;
-        text-align: center;
-        padding: -30px;
-        font-size: smaller;
+    /* .newsletter{
+        padding       : 2px;
+        padding-top   : 5px;
+        padding-bottom: 21px;
+        height        : 80px;
+        margin-top    : 15px;
+    } */
+    /* newsletter label{
+        font-weight: 600;
     }
+    .newsletter input{
+        width        : 40%;
+        border       : 2px solid #ccc;
+        border-radius: 0px 10px;
+        padding      : 8px;
+        hit
+    }
+    .newsletter button{
+        padding    : 8px;
+        font-size  : 10px;
+        font-weight: 600;
+    } */
+    .copy{
+        text-align: center;
+        padding   : -30px;
+        font-size : smaller;
+    }
+
 }
